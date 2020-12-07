@@ -1,0 +1,17 @@
+.App {
+    width: 70%;
+    min-width: 500px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px auto;
+
+    & > section {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,14 @@
+.Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &_icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 10px;
+    }
+}

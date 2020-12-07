@@ -1,0 +1,64 @@
+.Form {
+    &_trigger {
+        height: 36px;
+        background-color: white;
+        border: none;
+        border: 1px solid gray;
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &_box {
+        border: 1px solid gray;
+        background-color: white;
+        padding: 10px;
+        margin: 5px 0;
+        position: absolute;
+        z-index: 10;
+    }
+
+    &_row {
+        margin: 5px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &_error {
+        color: red;
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+
+    &_btn {
+        &_wrap {
+            display: flex;
+            justify-content: center;
+            margin: 15px 0;
+
+            button {
+                width: 80px;
+                margin: 0 5px;
+                border-radius: 4px;
+            }
+        }
+
+        &_save {
+            color: white;
+            background-color: #4a26ff;
+            border: none;
+        }
+    }
+
+    &_background {
+        width: 100%;
+        height: 100vh;
+        background-color: gray;
+        opacity: 0.5;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+}
